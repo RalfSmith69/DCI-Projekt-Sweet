@@ -1,0 +1,161 @@
+@import url(https://fonts.bunny.net/css?family=pacifico:400);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header */
+header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1.7em 2.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Pacifico", handwriting;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+}
+.icon {
+    display: flex;
+}
+.icon i {
+    font-size: 1.5rem;
+    background-color: #eee;
+    margin: 2px;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon i:hover {
+    background-color: #fc227d;
+}
+
+.home {
+    background: url("images/sweetBg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 12em;
+    line-height: 2;
+    width: 100%;
+    
+}
+
+.box-container .box img {
+    height: 130px;
+    margin-bottom: 10px; /* Add this line to adjust the margin bottom */
+}
+
+.btn {
+    background-color: #fc227d;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 0.2em 1.8em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+.home span {
+    color: #fc227d;
+}
+
+.box-container .box {
+    background-color: #e1fcf5;
+    margin: 1rem;
+    text-align: center;
+    padding: 2em;
+}
+
+.box-container .box img {
+    height: 130px;
+}
+/* navigation style */
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+}
+nav li {
+    list-style: none;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a:hover {
+    border-bottom: 3px solid #fc227d;
+}
+nav {
+    display: none;
+}
+
+/* bar menu */
+#menu-btn {
+    position: relative;
+}
+
+#menu-btn ul {
+    display: none;
+    list-style: none;
+    background-color: lightsteelblue;
+    padding: 1em;
+    position: absolute;
+    top: 45px;
+}
+
+#menu-btn ul li a {
+    color: white;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+#menu-btn:hover ul {
+    display: block;
+}
+
+/* tablets and small laptops */
+@media (min-width: 768px) {
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .box-container .box {
+        /* 1/5 */
+        flex: 1 1 30%;
+    }
+}
+
+@media (min-width: 990px) {
+    #menu-btn {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+}
