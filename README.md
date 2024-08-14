@@ -18,9 +18,6 @@
 - The text 'Sweety' is font 'Pacifico' from Google Fonts
 - Other texts are 'Arial'
 
-## Demo
-
-https://user-images.githubusercontent.com/82094277/199498935-489679f7-409b-4380-9a46-14942342b30d.mov
 
 ## Tablet
 
