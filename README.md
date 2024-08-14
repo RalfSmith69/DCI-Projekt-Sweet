@@ -18,23 +18,5 @@
 - The text 'Sweety' is font 'Pacifico' from Google Fonts
 - Other texts are 'Arial'
 
-## Demo
-
-https://user-images.githubusercontent.com/82094277/199498935-489679f7-409b-4380-9a46-14942342b30d.mov
-
-## Tablet
-
-![tablet](designs/tablet.png)
-![tablet2](designs/tablet2.png)
-
-## Desktop
-
-![desktop](designs/desk.png)
-![desktop2](designs/desk2.png)
-
-## Extra
-
-![menu](designs/menu.png)
-![icons](designs/icons.png)
 
 Link zu Seite: https://ralfsmith69.github.io/DCI-Projekt-Sweet/
